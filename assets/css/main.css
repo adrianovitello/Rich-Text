@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: rgb(226, 226, 226);
+    flex-direction: column;
+    display: flex;
+}
+
+.container{
+    flex: 1;
+    margin: 0 auto;
+    margin-top: 4vh;
+}
+
+.tool-list{
+    display: flex;
+    flex-flow: row, nowrap;
+    list-style: none;
+}
+
+.tool--btn{
+    padding: 10px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    background-color: #fff;
+}
+
+.tool--btn:hover{
+    background-color: #fff;
+    background-color: rgba(104, 104, 104, 0.19);
+}
+
+.toolbar{
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+}
+
+#output{
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin-top: 1vh;
+}
